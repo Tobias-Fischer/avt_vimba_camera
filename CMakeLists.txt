@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(avt_vimba_camera)
 
+add_definitions(-DNOMINMAX)
+
 find_package(catkin REQUIRED COMPONENTS
   #libvimba
   camera_info_manager
